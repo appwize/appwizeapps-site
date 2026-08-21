@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Appwize Apps</title>
+<meta name="description" content="Appwize LLC — small, self-contained iOS apps.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5a5a5a;
+    --rule: #e2e2e2;
+    --link: #0b5cd5;
+    --card: #f7f7f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181c;
+      --fg: #e8e8e8;
+      --muted: #a0a4ab;
+      --rule: #2c2f36;
+      --link: #6ba7ff;
+      --card: #1e2127;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 4rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 2.1rem; line-height: 1.15; margin: 0 0 .4rem; letter-spacing: -.025em; }
+  .lede { color: var(--muted); margin: 0 0 3rem; }
+  h2 {
+    font-size: 1.15rem; margin: 0 0 1rem;
+    letter-spacing: -.01em;
+  }
+  .app {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 1.35rem 1.5rem;
+  }
+  .app h3 { margin: 0 0 .35rem; font-size: 1.05rem; }
+  .app p { margin: 0 0 .9rem; color: var(--muted); font-size: .97rem; }
+  .app a { color: var(--link); text-decoration: none; font-size: .95rem; }
+  .app a:hover { text-decoration: underline; }
+  .app a + a { margin-left: 1.1rem; }
+  footer {
+    margin-top: 4rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .9rem;
+  }
+  footer a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Appwize Apps</h1>
+  <p class="lede">Small, self-contained iOS apps. No accounts, no servers, no nonsense.</p>
+
+  <h2>Apps</h2>
+  <div class="app">
+    <h3>Wordly Word Search</h3>
+    <p>Eight categories, three difficulties, and a freshly generated grid every time.
+       Plays entirely offline; your progress never leaves the device.</p>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+
+  <footer>
+    Appwize LLC · <a href="mailto:support@appwizeapps.com">support@appwizeapps.com</a>
+  </footer>
+</main>
+</body>
+</html>
